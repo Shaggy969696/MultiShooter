@@ -559,8 +559,8 @@ MonoBehaviour:
   lookTarget: {fileID: 8338988566280778637}
   initialModeName: FreeLook
   enableLookInput: 1
-  defaultLookSensitivity: 1
-  defaultVerticalLookLimit: 70
+  defaultLookSensitivity: 0.5
+  defaultVerticalLookLimit: 100
   onLookInput: {fileID: 11400000, guid: 8af931367978e4bc9bae53b88856ff5b, type: 2}
 --- !u!114 &8646187335525898243
 MonoBehaviour:

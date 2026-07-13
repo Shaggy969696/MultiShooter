@@ -141,8 +141,8 @@ MonoBehaviour:
   inactivePriority: 9
   playerRotationMode: 2
   overrideLookSettings: 1
-  lookSensitivity: 0.5
-  verticalLookLimit: 70
+  lookSensitivity: 0.25
+  verticalLookLimit: 100
 --- !u!114 &1982895397614513425
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2462,6 +2462,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5472475621152118953, guid: 0f60e12bf7853e649a290657569aae85, type: 3}
   m_PrefabInstance: {fileID: 3505577107632434499}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 --- !u!4 &270487143 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5258241512367921664, guid: 58af03db3677aa64fbd5f4fdb3dd0139, type: 3}
@@ -8878,6 +8879,9 @@ Transform:
   m_PrefabInstance: {fileID: 8440912680192624037}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1114003458
+=======
+--- !u!1001 &769363882
+>>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8941,6 +8945,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< Updated upstream
   m_SourcePrefab: {fileID: 100100000, guid: 1b4f36a50032317428604e4eb8a3ea55, type: 3}
 --- !u!4 &1114003459 stripped
 Transform:
@@ -8973,6 +8978,75 @@ Transform:
   m_PrefabInstance: {fileID: 6868136662441912214}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1128036454
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 05befbbe6b4cd824da82d6e4aa7e3e9c, type: 3}
+--- !u!1001 &831831885
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1208051522538009516, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3095609513
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819373167727303275, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_Name
+      value: '[BB] ShooterPlayer Variant'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819373167727303275, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.463251
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.558371
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200859054055817425, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+--- !u!1001 &857729858
+>>>>>>> Stashed changes
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -12485,6 +12559,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 8095685718527813370, guid: 011b03a6f560b45ccb17a870289c9b35, type: 3}
+      propertyPath: NetworkConfig.PlayerPrefab
+      value: 
+      objectReference: {fileID: 4416926081852918481, guid: 2b93a04a4a84044e189f8cb194f89563, type: 3}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -80851,3 +80932,9 @@ SceneRoots:
   - {fileID: 568094265827855252}
   - {fileID: 268221929}
   - {fileID: 102665018}
+<<<<<<< Updated upstream
+=======
+  - {fileID: 769363882}
+  - {fileID: 857729858}
+  - {fileID: 831831885}
+>>>>>>> Stashed changes
