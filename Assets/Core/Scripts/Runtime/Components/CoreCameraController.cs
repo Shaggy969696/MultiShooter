@@ -164,6 +164,15 @@ namespace Blocks.Gameplay.Core
         }
 
         /// <summary>
+        /// Sets the vertical look limit at runtime.
+        /// </summary>
+        /// <param name="limit">The new vertical look limit in degrees.</param>
+        public void SetVerticalLookLimit(float limit)
+        {
+            m_VerticalLookLimit = limit;
+        }
+
+        /// <summary>
         /// Switches the active camera mode by changing Cinemachine virtual camera priorities.
         /// </summary>
         /// <param name="modeName">The name of the camera mode to activate.</param>

@@ -38,6 +38,12 @@ namespace Blocks.Gameplay.Shooter
         [Tooltip("Camera look sensitivity when aiming (typically lower for precision).")]
         public float aimSensitivity = 0.5f;
 
+        [Header("Camera Vertical Limit")]
+        [Tooltip("Camera vertical look limit when in free look mode.")]
+        public float freeLookVerticalLimit = 70.0f;
+        [Tooltip("Camera vertical look limit when aiming.")]
+        public float aimVerticalLimit = 40.0f;
+
         [Header("Input Events (Listening)")]
         [Tooltip("Event triggered when the player toggles aim mode.")]
         [SerializeField] private GameEvent onAimToggled;
@@ -106,6 +112,12 @@ namespace Blocks.Gameplay.Shooter
             if (m_PlayerManager.IsOwner)
             {
                 onAimToggled.RegisterListener(HandleAimToggled);
+
+                if (m_PlayerManager.CoreCamera != null)
+                {
+                    m_PlayerManager.CoreCamera.SetLookSensitivity(freeLookSensitivity);
+                    m_PlayerManager.CoreCamera.SetVerticalLookLimit(freeLookVerticalLimit);
+                }
             }
         }
 
@@ -175,6 +187,7 @@ namespace Blocks.Gameplay.Shooter
                 {
                     m_PlayerManager.CoreCamera.SwitchCameraMode(thirdPersonFreeLookCameraName);
                     m_PlayerManager.CoreCamera.SetLookSensitivity(freeLookSensitivity);
+                    m_PlayerManager.CoreCamera.SetVerticalLookLimit(freeLookVerticalLimit);
 
                     // Sync movement rotation mode with the new camera mode
                     if (m_PlayerManager.CoreMovement != null)
@@ -218,6 +231,9 @@ namespace Blocks.Gameplay.Shooter
 
                 float sensitivity = m_IsAiming ? aimSensitivity : freeLookSensitivity;
                 m_PlayerManager.CoreCamera.SetLookSensitivity(sensitivity);
+
+                float verticalLimit = m_IsAiming ? aimVerticalLimit : freeLookVerticalLimit;
+                m_PlayerManager.CoreCamera.SetVerticalLookLimit(verticalLimit);
             }
 
             if (m_PlayerManager.CoreMovement != null && m_PlayerManager.CoreCamera != null)
