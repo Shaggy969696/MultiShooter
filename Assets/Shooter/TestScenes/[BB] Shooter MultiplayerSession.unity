@@ -426,6 +426,51 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 299089857f1d70f42bd7a14c4e2b6175, type: 3}
+--- !u!1 &534975862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 534975864}
+  - component: {fileID: 534975863}
+  m_Layer: 0
+  m_Name: 'EscapeMenu '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &534975863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534975862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e351c481c7d51244a06691d8cf8edac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeMenu
+  sessionBrowser: {fileID: 130042537}
+--- !u!4 &534975864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534975862}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.9198, y: 0, z: 25.15856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &769363882
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -866,6 +911,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2555768480983259488, guid: bc7cfa89dae884d53935fb46b8166b42, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2891630175
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555768480983259488, guid: bc7cfa89dae884d53935fb46b8166b42, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2555768480983259488, guid: bc7cfa89dae884d53935fb46b8166b42, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 2397148050
+      objectReference: {fileID: 0}
     - target: {fileID: 6098348099930101744, guid: bc7cfa89dae884d53935fb46b8166b42, type: 3}
       propertyPath: m_Name
       value: ProjectilePoolSetup
@@ -1146,3 +1203,4 @@ SceneRoots:
   - {fileID: 857729858}
   - {fileID: 498075243}
   - {fileID: 1362630682}
+  - {fileID: 534975864}
