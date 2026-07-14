@@ -2608,6 +2608,10 @@ PrefabInstance:
       propertyPath: freeLookSensitivity
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 6335676085073359025, guid: 2b93a04a4a84044e189f8cb194f89563, type: 3}
+      propertyPath: defaultVerticalLookLimit
+      value: 160
+      objectReference: {fileID: 0}
     - target: {fileID: 6606124303744922498, guid: 2b93a04a4a84044e189f8cb194f89563, type: 3}
       propertyPath: attachableNode
       value: 
